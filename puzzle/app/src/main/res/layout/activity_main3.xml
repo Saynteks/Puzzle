@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity3">
+
+    <ImageButton
+        android:id="@+id/f1"
+        android:layout_width="140dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="149dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="120dp"
+        app:layout_constraintBottom_toTopOf="@+id/f8"
+        app:layout_constraintEnd_toStartOf="@+id/f6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/f1" />
+
+    <ImageButton
+        android:id="@+id/f2"
+        android:layout_width="140dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="149dp"
+        android:layout_marginBottom="120dp"
+        app:layout_constraintBottom_toTopOf="@+id/f7"
+        app:layout_constraintEnd_toStartOf="@+id/f3"
+        app:layout_constraintStart_toStartOf="@+id/f5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/f2" />
+
+    <ImageButton
+        android:id="@+id/f3"
+        android:layout_width="140dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="149dp"
+        android:layout_marginBottom="120dp"
+        app:layout_constraintBottom_toTopOf="@+id/f9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/f5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/f3" />
+
+    <ImageButton
+        android:id="@+id/f4"
+        android:layout_width="140dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="130dp"
+        app:layout_constraintBottom_toBottomOf="@+id/f7"
+        app:layout_constraintEnd_toStartOf="@+id/f9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/f1"
+        app:srcCompat="@drawable/f4" />
+
+    <ImageButton
+        android:id="@+id/f5"
+        android:layout_width="140dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="276dp"
+        android:layout_marginBottom="141dp"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toStartOf="@+id/f3"
+        app:layout_constraintStart_toEndOf="@+id/f4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/f5" />
+
+    <ImageButton
+        android:id="@+id/f6"
+        android:layout_width="140dp"
+        android:layout_height="138dp"
+        app:layout_constraintBottom_toBottomOf="@+id/f5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/f8"
+        app:layout_constraintTop_toTopOf="@+id/f5"
+        app:srcCompat="@drawable/f6" />
+
+    <ImageButton
+        android:id="@+id/f7"
+        android:layout_width="140dp"
+        android:layout_height="138dp"
+        android:layout_marginBottom="186dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/f4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/f2"
+        app:srcCompat="@drawable/f7" />
+
+    <ImageButton
+        android:id="@+id/f8"
+        android:layout_width="140dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="407dp"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toStartOf="@+id/f6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/f8" />
+
+    <ImageButton
+        android:id="@+id/f9"
+        android:layout_width="140dp"
+        android:layout_height="138dp"
+        android:layout_marginBottom="186dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/f4"
+        app:layout_constraintTop_toBottomOf="@+id/f3"
+        app:srcCompat="@drawable/f9" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginBottom="128dp"
+        android:text="Çıkış"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/f8"
+        app:layout_constraintTop_toBottomOf="@+id/f5" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="124dp"
+        android:text="Başla"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/f8" />
+</androidx.constraintlayout.widget.ConstraintLayout>
